@@ -16,4 +16,4 @@ A lightweight Python library providing a simple key-value store using SQLite.
 ## Installation
 
 ```bash
-pip install sqbooster
+pip install git+https://github.com/daradege/sqbooster
