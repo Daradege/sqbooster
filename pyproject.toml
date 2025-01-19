@@ -1,0 +1,19 @@
+[project]
+name = "sqbooster"  # Your package name
+version = "0.0.1"    # Initial version
+authors = [
+    { name = "Ali Safamanesh", email = "darg.q.a.a@gmail.com" }
+]
+description = "A python library that allows you to work with sql easily"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
